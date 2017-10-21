@@ -85,11 +85,12 @@ the result is :
 the TTL is decrementing .
 Lets wait more than a minute an then reexecute the select :
 
-the result is 
-| first_name | last name | ttl(last_name)|
+the result is:
+
+| first_name | last name | ttl(last_name) |
 |------------|-----------|----------------|
 |    Miloudi |      Adil |           `null`|
-|    Mougada |      `null` |           `null`|
+|    Mougada |    `null` |           `null`|
 |    Othmane |    MANIAR |           `null`|
 
 the lastname value for Mougada has desapeared .
